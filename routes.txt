@@ -14,4 +14,5 @@
 |        | GET|HEAD | register               | register         | App\Http\Controllers\Auth\RegisterController@showRegistrationForm      | web,guest    |
 |        | POST     | register               |                  | App\Http\Controllers\Auth\RegisterController@register                  | web,guest    |
 |        | GET|HEAD | review                 | create           | App\Http\Controllers\ReviewController@create                           | web,auth     |
+|        | POST     | review/store           | store            | App\Http\Controllers\ReviewController@store                            | web,auth     |
 +--------+----------+------------------------+------------------+------------------------------------------------------------------------+--------------+
